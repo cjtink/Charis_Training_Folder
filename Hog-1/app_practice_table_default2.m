@@ -1,8 +1,8 @@
-function app_practice_table_default (value, app)
+function app_practice_table_default2 (value, app)
 
             
 switch value
-    case 'Default 1'
+    case 'Default 3'
             TMP = cell(4,4);
             TMP(1,:) = {'row1col1','row1col2','row1col3','row1col4'};
             TMP(2,:) = {'row2col1','row2col2','row2col3','row2col4'};
@@ -10,7 +10,7 @@ switch value
             TMP(4,:) = {'row4col1','row4col2','row4col3','row4col4'};
             app.UITable.Data = TMP;
             
-        case 'Default 2'
+        case 'Default 4'
             TMP = cell(4,4);
             TMP(1,:) = {'row1col1','row1col2','row1col3','row1col4'};
             TMP(2,:) = {'row2col1','row2col2','row2col3','row2col4'};
